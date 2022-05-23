@@ -1,5 +1,19 @@
-train: C:/Users/wndud/content/dataset/train.txt
-val: C:/Users/wndud/content/dataset/val.txt
-nc: 16
-names: ['dog', 'person', 'cat', 'tv', 'car', 'meatballs', 'marinara sauce', 'tomato soup', 'chicken noodle soup', 'french onion soup', 'chicken breast', 'ribs', 'pulled pork', 'hamburger', 'cavity', 'milk']
-
+names:
+- water
+- juice
+- milk
+- liquor
+- coffee
+- tea
+- noodles
+- instant_food
+- canned
+- sauce
+- powder
+- oil
+- snack
+- cereal
+- icecream
+nc: 15
+train: C:/content/dataset/train.txt
+val: C:/content/dataset/val.txt
